@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.player-score, .computer-score {
+  width: 40%;
+}
+
+.player-score h2, .computer-score h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.player-score p, .computer-score p {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.game-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-options {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.game-options button {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  height: 10rem;
+  width: 10rem;
+}
+.game-options button:focus{
+  border: 3px solid;
+}
+.game-options button img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.result {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.result h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.result img{
+  width: 50%;
+}
+#rock{
+  margin-bottom: 20px;
+}
+.play-again{
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.win,
+.lose,
+.tie{
+  background-color: green;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.lose{
+  background-color: red;
+}
+.tie{
+  background-color: yellow;
+}
+#play-again {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 8px 15px;
+}
